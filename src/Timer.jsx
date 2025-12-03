@@ -12,6 +12,7 @@ class Timer extends React.Component {
       isStart: false,
     };
   }
+  
 
   startInterval = () => {
     if (this.state.isStart == false) {
